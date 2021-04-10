@@ -18,9 +18,9 @@
 
 <main>
     <ul>
-        <li>Mode nuit    <input type="checkbox" onclick="jour_nuit ()" ></li>
+        <li>Mode nuit <input type="checkbox" id="jour_nuit" onclick="jour_nuit ()" ><label for="jour_nuit"></label></li>
         <li><a href="">Modifiez votre profil</a></li>
-        <li>inscription à la newsletter <input type="checkbox"></li>
+        <li>inscription à la newsletter <input type="checkbox" id="news"><label for="news"></label></li>
         <li><a href="">Passe au mode premium</a></li>
         <li><a href="">Nous contacter</a></li>
     </ul>
@@ -39,6 +39,7 @@
     </div>
     <img src="img/fond-footer.png" alt="">
 </footer>
+</body>
 <script>
     function jour_nuit() {
         let element = document.body;
